@@ -1,0 +1,48 @@
+[23-Jul-2020 04:19:50 UTC] 
+IP Address: 173.212.242.224
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[23-Jul-2020 07:12:46 UTC] 
+IP Address: 66.249.64.79
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[23-Jul-2020 07:13:12 UTC] 
+IP Address: 66.249.64.75
+data: {"unique_id":""}
+
+[23-Jul-2020 17:00:37 UTC] 
+IP Address: 114.119.161.7
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[23-Jul-2020 17:33:13 UTC] 
+IP Address: 66.249.64.77
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[23-Jul-2020 17:37:17 UTC] 
+IP Address: 66.249.64.79
+data: {"unique_id":""}
+
+[23-Jul-2020 23:44:06 UTC] 
+IP Address: 114.119.163.57
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+

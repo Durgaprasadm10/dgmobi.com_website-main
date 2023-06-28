@@ -1,0 +1,164 @@
+[12-Feb-2020 04:32:26 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[12-Feb-2020 04:32:38 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[12-Feb-2020 04:34:03 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[12-Feb-2020 04:57:41 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[12-Feb-2020 05:06:21 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[12-Feb-2020 05:27:14 UTC] 
+IP Address: 183.82.111.48
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 05:27:18 UTC] 
+IP Address: 183.82.111.48
+data: {"unique_id":""}
+
+[12-Feb-2020 05:33:40 UTC] 
+IP Address: 183.82.9.55
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 05:33:44 UTC] 
+IP Address: 183.82.9.55
+data: {"unique_id":""}
+
+[12-Feb-2020 07:13:38 UTC] 
+IP Address: 183.82.111.48
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:13:44 UTC] 
+IP Address: 183.82.111.48
+data: {"unique_id":""}
+
+[12-Feb-2020 07:21:30 UTC] 
+IP Address: 117.254.83.185
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:21:35 UTC] 
+IP Address: 117.254.83.185
+data: {"unique_id":""}
+
+[12-Feb-2020 07:37:23 UTC] 
+IP Address: 183.82.9.55
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:37:26 UTC] 
+IP Address: 183.82.9.55
+data: {"unique_id":""}
+
+[12-Feb-2020 07:38:19 UTC] 
+IP Address: 183.82.9.55
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:38:20 UTC] 
+IP Address: 183.82.9.55
+data: {"unique_id":""}
+
+[12-Feb-2020 07:38:24 UTC] 
+IP Address: 183.82.9.55
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:38:24 UTC] 
+IP Address: 183.82.9.55
+data: {"unique_id":""}
+
+[12-Feb-2020 07:38:58 UTC] 
+IP Address: 183.82.9.55
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 07:38:59 UTC] 
+IP Address: 183.82.9.55
+data: {"unique_id":""}
+
+[12-Feb-2020 07:43:07 UTC] 
+IP Address: 52.114.14.102
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 12:03:54 UTC] 
+IP Address: 157.44.240.38
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Feb-2020 12:04:03 UTC] 
+IP Address: 157.44.240.38
+data: {"unique_id":""}
+
+[12-Feb-2020 20:53:37 UTC] 
+IP Address: 159.138.149.37
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+

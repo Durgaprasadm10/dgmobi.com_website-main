@@ -1,0 +1,43 @@
+[13-Nov-2018 13:32:28 UTC] 
+IP Address: 117.254.83.185
+data: {"unique_id":""}
+
+[13-Nov-2018 13:46:03 UTC] 
+IP Address: 117.254.83.185
+data: {"unique_id":""}
+
+[13-Nov-2018 13:46:49 UTC] 
+IP Address: 117.254.83.185
+data: {"orderId":"5bead5976b7a5","receiptNumber":"5bead5976b7a5","totalNoOfLicenses":4,"totalNoOfLicensesTDG":2,"totalNoOfLicenses49CFR":2,"totalPrice":"99.96","totalPriceWithTax":0,"taxRate":[{"taxPercentage":"13","taxType":"HST"}],"taxPrice":0,"phone":"789456","firstname":"sridevi","lastname":"akurathi","email":"sridevi.akurathi@ideabytes.com","countryName":"CANADA","provinceName":"Manitoba","address":"canada","products":[{"id":"1","productName":"49 CFR Android","mobileType":"0","regulation":"49CFR","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"},{"id":"2","productName":"49 CFR iOS","mobileType":"1","regulation":"49CFR","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"},{"id":"3","productName":"TDG Android","mobileType":"0","regulation":"TDG","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"},{"id":"4","productName":"TDG iOS","mobileType":"1","regulation":"TDG","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"}]}
+language: english
+
+[13-Nov-2018 13:46:50 UTC] 
+IP Address: 117.254.83.185
+orderId: 5bead5976b7a5
+tx: 1
+st: Completed
+
+[13-Nov-2018 13:46:50 UTC] 
+IP Address: 117.254.83.185
+response: {"receiptNumber":"5bead5976b7a5","unitPrice":"","totalNoOfLicenses":"4","totalPriceWithTax":"0","totalNoOfLicensesTDG":"2","totalNoOfLicenses49CFR":"2","taxRate":[{"taxPercentage":"13","taxType":"HST"}],"taxPrice":"0","currency":"US $","phoneNumber":"789456","firstName":"sridevi","lastName":"akurathi","emailID":"sridevi.akurathi@ideabytes.com","countryName":"CANADA","provinceName":"Manitoba","address":"canada","products":[{"regulation":"49CFR","productName":"49 CFR Android","mobileType":"0","appName":"landstar","noOfLicenses":"1","price":"24.99"},{"regulation":"49CFR","productName":"49 CFR iOS","mobileType":"1","appName":"landstar","noOfLicenses":"1","price":"24.99"},{"regulation":"TDG","productName":"TDG Android","mobileType":"0","appName":"landstar","noOfLicenses":"1","price":"24.99"},{"regulation":"TDG","productName":"TDG iOS","mobileType":"1","appName":"landstar","noOfLicenses":"1","price":"24.99"}]}
+
+[13-Nov-2018 13:49:09 UTC] 
+IP Address: 117.254.83.185
+resultCA: {"service":{"handler":"http://dgapp.dgsms.ca:8080/DGSMS_CA_WS_SERVER","version":"1.4.6.749","originalURI":"http://dgapp.dgsms.ca:8080/DGSMS_CA_WS_SERVER/api/new/web/insertuserandlicenseinformation.json"},"results":{"result":"2","reponse":"License Information Inserted Successfully","status":"00"},"statusMessage":"OK"}
+
+[13-Nov-2018 13:51:28 UTC] 
+IP Address: 117.254.83.185
+resultUS: {"service":{"handler":"http://dgapp.dgsmsusa.com:8080/DGSMS_US_WS_SERVER","version":"1.4.6.749","originalURI":"http://dgapp.dgsmsusa.com:8080/DGSMS_US_WS_SERVER/api/new/web/insertuserandlicenseinformation.json"},"results":{"result":"[I@e0da938","reponse":"License Information Inserted Successfully","status":"00"},"statusMessage":"OK"}
+
+[13-Nov-2018 13:52:21 UTC] 
+IP Address: 117.254.83.185
+data: {"unique_id":""}
+
+[13-Nov-2018 16:47:29 UTC] 
+IP Address: 170.203.252.249
+data: {"unique_id":""}
+
+[13-Nov-2018 17:10:39 UTC] 
+IP Address: 170.203.252.249
+data: {"unique_id":""}
+

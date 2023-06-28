@@ -1,0 +1,53 @@
+[05-Jan-2023 08:40:53 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 54
+
+[05-Jan-2023 08:43:01 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 54
+
+[05-Jan-2023 08:45:54 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 55
+
+[05-Jan-2023 08:47:43 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 57
+
+[05-Jan-2023 08:49:49 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 57
+
+[05-Jan-2023 08:49:51 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 57
+
+[05-Jan-2023 08:49:52 UTC] 
+Uncaught Exception: 'Error' with message Undefined class constant 'US_BASE_API_URL_TEST''
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 57
+
+[05-Jan-2023 08:51:44 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[05-Jan-2023 08:52:42 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[05-Jan-2023 11:39:32 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+

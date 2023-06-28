@@ -1,0 +1,16 @@
+[09-Jan-2023 10:12:41 UTC] 
+Error Code: 1044
+Error Message: SQLSTATE[HY000] [1044] Access denied for user 'dgdox'@'%' to database 'dgsmsca_server_ca_test'
+
+[09-Jan-2023 10:12:53 UTC] 
+Error Code: 1044
+Error Message: SQLSTATE[HY000] [1044] Access denied for user 'dgdox'@'%' to database 'dgsmsca_server_ca_test'
+
+[09-Jan-2023 10:13:22 UTC] 
+Error Code: 1044
+Error Message: SQLSTATE[HY000] [1044] Access denied for user 'dgdox'@'%' to database 'dgsmsca_server_ca_test'
+
+[09-Jan-2023 10:21:46 UTC] 
+Error Code: 1044
+Error Message: SQLSTATE[HY000] [1044] Access denied for user 'dgdox'@'%' to database 'dgsmsca_server_ca_test'
+

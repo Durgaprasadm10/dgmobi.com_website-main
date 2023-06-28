@@ -1,0 +1,1444 @@
+[11-Jan-2023 04:39:58 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 06:38:43 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 06:39:33 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:03:21 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:04:22 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be5f396493c","receiptNumber":"63be5f396493c","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99,DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"dasari","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:06:15 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be5f396493c","receiptNumber":"63be5f396493c","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99,DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99,DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"dasari","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:06:15 UTC] 
+IP Address: 122.171.108.104
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63be5f396493c' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"1","totalPrice":"47.99","selectedLanguage":"english","orderId":"63be5f396493c","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99,DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99,DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99"}
+
+[11-Jan-2023 07:06:42 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:07:27 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:08:19 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be602f78b64","receiptNumber":"63be602f78b64","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanalstest","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:09:25 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:10:08 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be60a5ec5a4","receiptNumber":"63be60a5ec5a4","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanalstest","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:10:27 UTC] 
+Uncaught Exception: 'Error' with message Class 'config' not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/cancel.php' on line 21
+
+[11-Jan-2023 07:11:14 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:11:53 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be61120f81c","receiptNumber":"63be61120f81c","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanalstest","phone":"888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:12:49 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:13:04 UTC] 
+Uncaught Exception: 'Error' with message Class 'config' not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/cancel.php' on line 21
+
+[11-Jan-2023 07:13:46 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:14:21 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be61aa0accb","receiptNumber":"63be61aa0accb","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanalstest","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:20:12 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:21:16 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63be632c55e1f","receiptNumber":"63be632c55e1f","firstname":"bhavana_demo","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"Bhavanalstest","phone":"9876567890","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 07:22:49 UTC] 
+IP Address: 183.82.9.55
+orderId: 63be632c55e1f
+PayerID: 2E7HFK3ESYSC6
+token: 13N42421S24115047
+useraction: commit
+mfid: 1673421676752_a4124abd4bd6c
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: ganeshbharatha318@gmail.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 4EH2012889950231R
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be632c55e1f
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T07:21:17Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: A228FPMMYIKuyrZ277Y8QdISBSSnAEfrHEwuME.zTJ-WfGgB0lsazj8a
+amt: 47.99
+cc: USD
+st: Completed
+tx: 4EH2012889950231R
+
+[11-Jan-2023 07:22:49 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63be632c55e1f","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9876567890","firstName":"bhavana_demo","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Bhavanalstest","products":[{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 07:30:03 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[11-Jan-2023 07:30:52 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be657babcbf","receiptNumber":"63be657babcbf","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:iOS:1:47.99","usname":"bhavanalscatest","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 07:36:12 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be657babcbf
+PayerID: 2E7HFK3ESYSC6
+token: 8LY962163F2518801
+useraction: commit
+mfid: 1673422253154_5f09ec652afda
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 6EW213240E0705237
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be657babcbf
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T07:30:53Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AHusTuU6Dl2AmdzY2ikxmtw11LPrADsdk.e6eDmRqOVsWlaQS-fttHuQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 6EW213240E0705237
+
+[11-Jan-2023 07:36:12 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be657babcbf","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanalscatest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 07:36:18 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be657babcbf
+PayerID: 2E7HFK3ESYSC6
+
+[11-Jan-2023 07:36:18 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: st'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(27): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 27, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/success.php' on line 27
+
+[11-Jan-2023 07:36:18 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be657babcbf
+PayerID: 2E7HFK3ESYSC6
+token: 8LY962163F2518801
+useraction: commit
+mfid: 1673422253154_5f09ec652afda
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 6EW213240E0705237
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be657babcbf
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T07:30:53Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AHusTuU6Dl2AmdzY2ikxmtw11LPrADsdk.e6eDmRqOVsWlaQS-fttHuQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 6EW213240E0705237
+
+[11-Jan-2023 07:36:18 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be657babcbf","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanalscatest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 07:48:19 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 07:49:18 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 07:51:22 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be69c38e2c8","receiptNumber":"63be69c38e2c8","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi US Xpress US 49 CFR:Annual:Android:1:47.99,DGMobi US Xpress US 49 CFR:Annual:Android:1:47.99","usname":"bhavanausexpress","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 07:53:18 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be69c38e2c8
+PayerID: 2E7HFK3ESYSC6
+logoutFrom: PAYPAL
+mfid: 1673423483004_ca0281545b4d7
+token: 53885740HU788005V
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 1JU57307FE809582U
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be69c38e2c8
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T07:51:23Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AFSj6TtDWU3HQ95PDRWuDHKXw6UNAds0PauS8Jq5S9JNFPtFw0gb7MHt
+amt: 47.99
+cc: USD
+st: Completed
+tx: 1JU57307FE809582U
+
+[11-Jan-2023 07:53:18 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be69c38e2c8","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"2","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanausexpress","products":[{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 08:55:49 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be69fe08cab","receiptNumber":"63be69fe08cab","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanausxpress","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 08:57:28 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be69fe08cab
+PayerID: 2E7HFK3ESYSC6
+token: 85234780B23980820
+useraction: commit
+mfid: 1673427350645_4ed82fba45ad5
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 1W2075278R6815325
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be69fe08cab
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T08:55:50Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AuNNEjvsY6eBOEi6ZORnEp1FnPNjAEG8kiiTJ0RyG3P8dA5c4HtBRZ.A
+amt: 47.99
+cc: USD
+st: Completed
+tx: 1W2075278R6815325
+
+[11-Jan-2023 08:57:28 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be69fe08cab","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanausxpress","products":[{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 08:57:29 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be69fe08cab
+PayerID: 2E7HFK3ESYSC6
+token: 85234780B23980820
+useraction: commit
+mfid: 1673427350645_4ed82fba45ad5
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 1W2075278R6815325
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be69fe08cab
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T08:55:50Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AuNNEjvsY6eBOEi6ZORnEp1FnPNjAEG8kiiTJ0RyG3P8dA5c4HtBRZ.A
+amt: 47.99
+cc: USD
+st: Completed
+tx: 1W2075278R6815325
+
+[11-Jan-2023 08:57:29 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be69fe08cab","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanausxpress","products":[{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 09:03:54 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 09:05:28 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be7b7a69cf2","receiptNumber":"63be7b7a69cf2","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanausgeneric","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@1234"}
+language: english
+
+[11-Jan-2023 09:07:33 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be7b7a69cf2
+PayerID: 2E7HFK3ESYSC6
+logoutFrom: PAYPAL
+mfid: 1673427929069_f3c37a48b2c70
+token: 49J79607VK6596917
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 65S24668RF429390T
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be7b7a69cf2
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T09:05:29Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ASl.kxkjc6DCPdrEnPiQC1WYPm-XAWukPiYVz4qQuDNiVEQADPUd.EVR
+amt: 47.99
+cc: USD
+st: Completed
+tx: 65S24668RF429390T
+
+[11-Jan-2023 09:07:33 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be7b7a69cf2","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanausgeneric","products":[{"regulation":"49 CFR","appName":"Generic","productName":"DGMobi Generic US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 09:14:55 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 09:16:23 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be7e0f143ff","receiptNumber":"63be7e0f143ff","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99","usname":"bhavanausxpresstest","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 09:18:53 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be7e0f143ff
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673428583743_a6fd1b67b0976
+token: 4WJ63624TP3901357
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 873180593R505710S
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be7e0f143ff
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T09:16:24Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AUYPrLRhPwz6NWMyz.t1t44Xh9AKA1odz9zwclpkl9K1oQR.sfXda7L7
+amt: 47.99
+cc: USD
+st: Completed
+tx: 873180593R505710S
+
+[11-Jan-2023 09:18:53 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be7e0f143ff","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanausxpresstest","products":[{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 10:44:04 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 10:50:28 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be92f401dc3","receiptNumber":"63be92f401dc3","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic CANADA TDG:Annual:iOS:1:47.99","usname":"cagenericbhavana","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 10:52:05 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be92f401dc3
+PayerID: T77XA272UYBPG
+token: 4E702139PY581873A
+useraction: commit
+mfid: 1673434229842_2edde476bf1f6
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 1V645188H8651440A
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be92f401dc3
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T10:50:30Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AnWFzVWSKSKZ8.IXtaKZu94-DrJxA2m3yXQu6SD7U3zb.3irZau4Ga17
+amt: 47.99
+cc: USD
+st: Completed
+tx: 1V645188H8651440A
+
+[11-Jan-2023 10:52:05 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be92f401dc3","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"cagenericbhavana","products":[{"regulation":"TDG","appName":"Generic","productName":"DGMobi Generic CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 11:15:27 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 11:37:39 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 11:41:56 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63be9a4f515d9","receiptNumber":"63be9a4f515d9","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:iOS:1:47.99","usname":"calandstarbhavana","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@12"}
+language: english
+
+[11-Jan-2023 11:43:32 UTC] 
+IP Address: 122.171.108.104
+orderId: 63be9a4f515d9
+PayerID: T77XA272UYBPG
+token: 0BR12541LC261915N
+useraction: commit
+mfid: 1673437317720_d84caef0dc11d
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 8LM077239X286615A
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63be9a4f515d9
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T11:41:58Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: At18uzyeuhGBNJtBMhb-pERo7sG9AygjXGdRimcDB2MhUu9fggnXCEOy
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8LM077239X286615A
+
+[11-Jan-2023 11:43:32 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63be9a4f515d9","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"calandstarbhavana","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 11:57:37 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 11:58:31 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63bea43119fb0","receiptNumber":"63bea43119fb0","firstname":"Ravi","lastname":"kiran","email":"ravikiran.makala@ideabytes.com","products":"DGMobi Generic CANADA TDG:Annual:iOS:1:47.99","usname":"Ravigenerictest","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Ravi@1234"}
+language: english
+
+[11-Jan-2023 12:00:10 UTC] 
+IP Address: 122.171.108.104
+orderId: 63bea43119fb0
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673438312700_300288e070027
+token: 90D51562FS8330543
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: ravikiran.makala@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 31W41303V55332038
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bea43119fb0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T11:58:33Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: A9juaFGOq5TeNaGvpz-DHU2c6.JmA9OWexWesOCfhVBegipymuY5Fit5
+amt: 47.99
+cc: USD
+st: Completed
+tx: 31W41303V55332038
+
+[11-Jan-2023 12:00:10 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63bea43119fb0","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"Ravi","lastName":"kiran","emailID":"ravikiran.makala@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ravigenerictest","products":[{"regulation":"TDG","appName":"Generic","productName":"DGMobi Generic CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 12:00:36 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 12:34:18 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 12:34:19 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 12:35:37 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63beaccba9752","receiptNumber":"63beaccba9752","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"dasariuslandstarios","phone":"999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@1234"}
+language: english
+
+[11-Jan-2023 12:37:18 UTC] 
+IP Address: 183.82.9.55
+orderId: 63beaccba9752
+PayerID: T77XA272UYBPG
+token: 12K76952BL904583L
+useraction: commit
+mfid: 1673440538590_fc438c7e8e5d0
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 4H2100307D0796410
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63beaccba9752
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T12:35:38Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AbBEAup72Fqi6id6vPdw-TP2uYOjAa4gYWPNxMTsTIHcN6-CAWmTtwUJ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 4H2100307D0796410
+
+[11-Jan-2023 12:37:18 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63beaccba9752","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"dasariuslandstarios","products":[{"regulation":"49 CFR","appName":"landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 12:55:43 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 12:56:58 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63beb1cf1543c","receiptNumber":"63beb1cf1543c","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:1:47.99","usname":"Dasarilandstarus","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 12:58:44 UTC] 
+IP Address: 183.82.9.55
+orderId: 63beb1cf1543c
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673441819514_49c79f9cadead
+token: 21103987TB243692N
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 7XH16314NP513903Y
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63beb1cf1543c
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T12:56:59Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ApSKppNQrGMiPPsRSv8Jq4HrbFEFAOBV1a-rhL3ymf94W7VSQjD3bK4z
+amt: 47.99
+cc: USD
+st: Completed
+tx: 7XH16314NP513903Y
+
+[11-Jan-2023 12:58:44 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63beb1cf1543c","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Dasarilandstarus","products":[{"regulation":"49 CFR","appName":"landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 13:16:15 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 13:18:00 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63beb69f70680","receiptNumber":"63beb69f70680","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic US 49 CFR:Annual:Android:1:47.99","usname":"usgenericbhavana","phone":"999999999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 13:22:26 UTC] 
+IP Address: 183.82.9.55
+orderId: 63beb69f70680
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673443081872_811189ceee1f5
+token: 44S04889TN599282S
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 6BU42778XN2067253
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63beb69f70680
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T13:18:02Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AzLFwV.Oqdvs-NGzUv1ke2Z6LXXHAiCeEXW3QEonHar6uOx6waGCJeVD
+amt: 47.99
+cc: USD
+st: Completed
+tx: 6BU42778XN2067253
+
+[11-Jan-2023 13:22:26 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63beb69f70680","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"999999999999999","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"usgenericbhavana","products":[{"regulation":"49 CFR","appName":"generic","productName":"DGMobi Generic US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 14:17:53 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 14:18:53 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63bec511222af","receiptNumber":"63bec511222af","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic US 49 CFR:Annual:iOS:1:47.99","usname":"dasariusg","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 14:20:51 UTC] 
+IP Address: 122.171.108.104
+orderId: 63bec511222af
+PayerID: T77XA272UYBPG
+token: 395328544S267853S
+useraction: commit
+mfid: 1673446734712_4e01b34095714
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 6PK592332G245422A
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bec511222af
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T14:18:55Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AFJVg-lujvkBSGJ3oArFCpojh6EDAFgH6wCcklZk86H8BIfjiZ7coIvv
+amt: 47.99
+cc: USD
+st: Completed
+tx: 6PK592332G245422A
+
+[11-Jan-2023 14:20:51 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63bec511222af","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"dasariusg","products":[{"regulation":"49 CFR","appName":"generic","productName":"DGMobi Generic US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 14:23:34 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 14:24:26 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63bec66625137","receiptNumber":"63bec66625137","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi USXPRESS US 49 CFR:Annual:iOS:1:47.99","usname":"xpressdasari","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 14:26:45 UTC] 
+IP Address: 122.171.108.104
+orderId: 63bec66625137
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673447066823_8ef84482d73f8
+token: 8R414348M7480954U
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 3KR34908TA365544H
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bec66625137
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T14:24:27Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: Ai2dthdpR8r9CkxiWc1MHlzxt0dTAxXbhSJZgQ46wNoBaTIIhY6uE0ef
+amt: 47.99
+cc: USD
+st: Completed
+tx: 3KR34908TA365544H
+
+[11-Jan-2023 14:26:45 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63bec66625137","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"xpressdasari","products":[{"regulation":"49 CFR","appName":"usxpress","productName":"DGMobi USXPRESS US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 14:31:20 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 14:32:37 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63bec8389d6f2","receiptNumber":"63bec8389d6f2","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:iOS:1:47.99","usname":"calandstar","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 14:41:58 UTC] 
+IP Address: 122.171.108.104
+orderId: 63bec8389d6f2
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673447558793_d0b7b28653bf8
+token: 9YX77623JG616033W
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 4YM391247E178224W
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bec8389d6f2
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T14:32:39Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AHK5eSa9-KKti8MDrtn-aJisypCSABUc-t6IYHBHRG4vk.ufcbtCEWnH
+amt: 47.99
+cc: USD
+st: Completed
+tx: 4YM391247E178224W
+
+[11-Jan-2023 14:41:58 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63bec8389d6f2","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"calandstar","products":[{"regulation":"TDG","appName":"landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 14:46:48 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 14:47:55 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becbd8519f7","receiptNumber":"63becbd8519f7","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic CANADA TDG:Annual:iOS:1:47.99","usname":"genericca","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 14:47:55 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becbd8519f7","receiptNumber":"63becbd8519f7","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic CANADA TDG:Annual:iOS:1:47.99","usname":"genericca","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 14:47:55 UTC] 
+IP Address: 122.171.108.104
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63becbd8519f7' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"99999999999","noOfLicenses":"1","totalPrice":"47.99","selectedLanguage":"english","orderId":"63becbd8519f7","products":"DGMobi Generic CANADA TDG:Annual:iOS:1:47.99"}
+
+[11-Jan-2023 14:49:46 UTC] 
+IP Address: 122.171.108.104
+orderId: 63becbd8519f7
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673448478093_5298ab1fdaafe
+token: 5G859823A7221302L
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 14V35703WA776593S
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63becbd8519f7
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T14:47:58Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: A4Iher5ngle0kAki9C2uz-ZeAvHHAMNdYCFo6.A1Bh89xMVKyL8mCcH8
+amt: 47.99
+cc: USD
+st: Completed
+tx: 14V35703WA776593S
+
+[11-Jan-2023 14:49:46 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63becbd8519f7","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"genericca","products":[{"regulation":"TDG","appName":"generic","productName":"DGMobi Generic CANADA TDG","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 14:56:08 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 14:57:12 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63bece0887b98","receiptNumber":"63bece0887b98","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:1:47.99","usname":"androidlandstarus","phone":"99999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Bhavana@123"}
+language: english
+
+[11-Jan-2023 14:59:19 UTC] 
+IP Address: 122.171.108.104
+orderId: 63bece0887b98
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673449033833_175806644179d
+token: 00Y19018P9514511T
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 07L734161H257004C
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bece0887b98
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T14:57:14Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: Abt9YSbu1-Jc6MOk-SljrzBL25vNAUmKA5SUN2iAn49LiWfcsieFcVIq
+amt: 47.99
+cc: USD
+st: Completed
+tx: 07L734161H257004C
+
+[11-Jan-2023 14:59:19 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63bece0887b98","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"99999999999","firstName":"dasari","lastName":"bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"androidlandstarus","products":[{"regulation":"49 CFR","appName":"landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 15:03:35 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 15:03:37 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 15:03:40 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 15:03:44 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1661): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1661, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1661
+
+[11-Jan-2023 15:06:49 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becfc7357ad","receiptNumber":"63becfc7357ad","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic US 49 CFR:Annual:Android:1:47.99","usname":"genericusandroid","phone":"8888888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 15:06:51 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becfc9eb0c0","receiptNumber":"63becfc9eb0c0","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:Android:1:47.99","usname":"landstarcaandroid","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 15:06:54 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becfccaaab4","receiptNumber":"63becfccaaab4","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Generic CANADA TDG:Annual:Android:1:47.99","usname":"genericca","phone":"888888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 15:06:57 UTC] 
+IP Address: 122.171.108.104
+data: {"orderId":"63becfd022b68","receiptNumber":"63becfd022b68","firstname":"bhavana","lastname":"dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi USXPRESS US 49 CFR:Annual:Android:1:47.99","usname":"usxprexxus","phone":"888888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[11-Jan-2023 15:11:56 UTC] 
+IP Address: 122.171.108.104
+orderId: 63becfc7357ad
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673449609917_be605075c039d
+token: 65030809W0577561A
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 7KT33789FH839505U
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63becfc7357ad
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T15:06:50Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AEU7R0E9GR7weSwXUSh5g34K4rx2A7QRijKDbetUDNCELRJe1GZQqCRF
+amt: 47.99
+cc: USD
+st: Completed
+tx: 7KT33789FH839505U
+
+[11-Jan-2023 15:11:56 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63becfc7357ad","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"8888888888888","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"genericusandroid","products":[{"regulation":"49 CFR","appName":"generic","productName":"DGMobi Generic US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 15:12:13 UTC] 
+IP Address: 122.171.108.104
+orderId: 63becfc9eb0c0
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673449612677_9ffed7ce3ef9
+token: 0JE86643X3499744N
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 1AX140797B9827730
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63becfc9eb0c0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T15:06:53Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: As5rqMrdp3lgi2w7WrhzrnI8m70fA4S6i3lYts8IHb0UFAZIRS6wGxcX
+amt: 47.99
+cc: USD
+st: Completed
+tx: 1AX140797B9827730
+
+[11-Jan-2023 15:12:13 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63becfc9eb0c0","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"8888888888","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"landstarcaandroid","products":[{"regulation":"TDG","appName":"landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 15:12:28 UTC] 
+IP Address: 122.171.108.104
+orderId: 63becfccaaab4
+PayerID: T77XA272UYBPG
+logoutFrom: PAYPAL
+mfid: 1673449615595_f91543baa9814
+token: 4F832916DS2104400
+ulClientRedirect: guest_logout
+useraction: commit
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 3AT50762LS242993Y
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63becfccaaab4
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T15:06:55Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AsCRG3NPLuJEjT.LV3NXBUF2KrZkAwHg5PkIFIK65sdcIE4vEAqf.n3Y
+amt: 47.99
+cc: USD
+st: Completed
+tx: 3AT50762LS242993Y
+
+[11-Jan-2023 15:12:28 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63becfccaaab4","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"888888888888","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"genericca","products":[{"regulation":"TDG","appName":"generic","productName":"DGMobi Generic CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[11-Jan-2023 15:12:39 UTC] 
+IP Address: 122.171.108.104
+orderId: 63becfd022b68
+PayerID: T77XA272UYBPG
+token: 3D712686V6100711N
+useraction: commit
+mfid: 1673449618132_aa41e693182bb
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: T77XA272UYBPG
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 47B90772R49498923
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63becfd022b68
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-11T15:06:58Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AgfbqGVTTo2LhBKq6ZmHM6jJ5qWkAFRb1nsaXnBKQWkM.wUFHlzjrL0-
+amt: 47.99
+cc: USD
+st: Completed
+tx: 47B90772R49498923
+
+[11-Jan-2023 15:12:39 UTC] 
+IP Address: 122.171.108.104
+response: {"receiptNumber":"63becfd022b68","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"888888888888","firstName":"bhavana","lastName":"dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"usxprexxus","products":[{"regulation":"49 CFR","appName":"usxpress","productName":"DGMobi USXPRESS US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+

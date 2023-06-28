@@ -1,0 +1,47 @@
+[29-Nov-2018 01:44:27 UTC] 
+IP Address: 45.45.21.35
+data: {"unique_id":""}
+
+[29-Nov-2018 01:46:06 UTC] 
+IP Address: 45.45.21.35
+data: {"orderId":"5bff4479dc5c1","receiptNumber":"5bff4479dc5c1","totalNoOfLicenses":2,"totalNoOfLicensesTDG":1,"totalNoOfLicenses49CFR":1,"totalPrice":"49.98","totalPriceWithTax":0,"taxRate":[{"taxPercentage":"13","taxType":"HST"}],"taxPrice":0,"phone":"4388803843","firstname":"Julienne","lastname":"duarte perez","email":"j2arte@gmail.com","countryName":"CANADA","provinceName":"Quebec","address":"2-5350 boul pie ix","products":[{"id":"1","productName":"49 CFR Android - DGMobi US LANDSTAR","mobileType":"0","regulation":"49CFR","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":0,"totalPrice":"0.00"},{"id":"2","productName":"49 CFR iOS - DGMobi US LANDSTAR","mobileType":"1","regulation":"49CFR","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"},{"id":"3","productName":"TDG Android - DGMobi CA LANDSTAR","mobileType":"0","regulation":"TDG","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":0,"totalPrice":"0.00"},{"id":"4","productName":"TDG iOS - DGMobi CA LANDSTAR","mobileType":"1","regulation":"TDG","appName":"landstar","price":"24.99","currency":"US","noOfLicenses":1,"totalPrice":"24.99"}]}
+language: english
+
+[29-Nov-2018 01:46:06 UTC] 
+IP Address: 45.45.21.35
+orderId: 5bff4479dc5c1
+tx: 1
+st: Completed
+
+[29-Nov-2018 01:46:06 UTC] 
+IP Address: 45.45.21.35
+response: {"receiptNumber":"5bff4479dc5c1","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"0","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"1","taxRate":[{"taxPercentage":"13","taxType":"HST"}],"taxPrice":"0","currency":"US $","phoneNumber":"4388803843","firstName":"Julienne","lastName":"duarte perez","emailID":"j2arte@gmail.com","countryName":"CANADA","provinceName":"Quebec","address":"2-5350 boul pie ix","products":[{"regulation":"49CFR","productName":"49 CFR Android - DGMobi US LANDSTAR","mobileType":"0","appName":"landstar","noOfLicenses":"0","price":"24.99"},{"regulation":"49CFR","productName":"49 CFR iOS - DGMobi US LANDSTAR","mobileType":"1","appName":"landstar","noOfLicenses":"1","price":"24.99"},{"regulation":"TDG","productName":"TDG Android - DGMobi CA LANDSTAR","mobileType":"0","appName":"landstar","noOfLicenses":"0","price":"24.99"},{"regulation":"TDG","productName":"TDG iOS - DGMobi CA LANDSTAR","mobileType":"1","appName":"landstar","noOfLicenses":"1","price":"24.99"}]}
+
+[29-Nov-2018 01:48:24 UTC] 
+IP Address: 45.45.21.35
+resultCA: {"service":{"handler":"http://dgapp.dgsms.ca:8080/DGSMS_CA_WS_SERVER","version":"1.4.6.749","originalURI":"http://dgapp.dgsms.ca:8080/DGSMS_CA_WS_SERVER/api/new/web/insertuserandlicenseinformation.json"},"results":{"result":"1","reponse":"License Information Inserted Successfully","status":"00"},"statusMessage":"OK"}
+
+[29-Nov-2018 01:50:42 UTC] 
+IP Address: 45.45.21.35
+resultUS: {"service":{"handler":"http://dgapp.dgsmsusa.com:8080/DGSMS_US_WS_SERVER","version":"1.4.6.749","originalURI":"http://dgapp.dgsmsusa.com:8080/DGSMS_US_WS_SERVER/api/new/web/insertuserandlicenseinformation.json"},"results":{"result":"[I@5f4098","reponse":"License Information Inserted Successfully","status":"00"},"statusMessage":"OK"}
+
+[29-Nov-2018 03:01:57 UTC] 
+IP Address: 172.58.229.193
+data: {"unique_id":""}
+
+[29-Nov-2018 12:26:01 UTC] 
+IP Address: 27.6.106.125
+data: {"unique_id":""}
+
+[29-Nov-2018 15:49:25 UTC] 
+IP Address: 174.206.5.122
+data: {"unique_id":""}
+
+[29-Nov-2018 16:11:52 UTC] 
+IP Address: 115.98.60.107
+data: {"unique_id":""}
+
+[29-Nov-2018 20:09:20 UTC] 
+IP Address: 166.137.136.89
+data: {"unique_id":""}
+

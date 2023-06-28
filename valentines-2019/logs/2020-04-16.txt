@@ -1,0 +1,30 @@
+[16-Apr-2020 06:38:00 UTC] 
+IP Address: 74.208.169.59
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[16-Apr-2020 06:38:00 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: HTTP_USER_AGENT'
+Stack trace: #0 /var/www/html/dgmobi/analytics_footer.php(7): customErrorHandler(8, 'Undefined index...', '/var/www/html/d...', 7, Array)
+#1 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(1630): include('/var/www/html/d...')
+#2 {main}
+Thrown in '/var/www/html/dgmobi/analytics_footer.php' on line 7
+
+[16-Apr-2020 06:38:24 UTC] 
+IP Address: 162.214.14.226
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[16-Apr-2020 06:38:24 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: HTTP_USER_AGENT'
+Stack trace: #0 /var/www/html/dgmobi/analytics_footer.php(7): customErrorHandler(8, 'Undefined index...', '/var/www/html/d...', 7, Array)
+#1 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(1630): include('/var/www/html/d...')
+#2 {main}
+Thrown in '/var/www/html/dgmobi/analytics_footer.php' on line 7
+

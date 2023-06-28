@@ -1,0 +1,48 @@
+[11-Feb-2020 10:54:14 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[11-Feb-2020 10:54:21 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[11-Feb-2020 10:54:33 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[11-Feb-2020 11:00:54 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[11-Feb-2020 11:01:08 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+
+[11-Feb-2020 12:45:52 UTC] 
+Uncaught Exception: 'Error' with message Class 'PDO' not found'
+Stack trace: #0 /var/www/html/dgmobi/valentines/classes/Database.php(74): Database::createInstance()
+#1 /var/www/html/dgmobi/valentines/classes/Transaction.php(26): Database::getInstance()
+#2 /var/www/html/dgmobi/valentines/dgmobi_buy_now.php(21): Transaction->__construct()
+#3 {main}
+Thrown in '/var/www/html/dgmobi/valentines/classes/Database.php' on line 51
+

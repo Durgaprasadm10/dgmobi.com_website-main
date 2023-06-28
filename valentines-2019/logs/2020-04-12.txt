@@ -1,0 +1,46 @@
+[12-Apr-2020 00:18:52 UTC] 
+IP Address: 54.36.149.0
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Apr-2020 03:24:33 UTC] 
+IP Address: 37.17.172.149
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Apr-2020 03:43:41 UTC] 
+IP Address: 37.17.172.151
+orderId: 5e9289f122316
+
+[12-Apr-2020 03:43:41 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: st'
+Stack trace: #0 /var/www/html/dgmobi/valentines/success.php(19): customErrorHandler(8, 'Undefined index...', '/var/www/html/d...', 19, Array)
+#1 {main}
+Thrown in '/var/www/html/dgmobi/valentines/success.php' on line 19
+
+[12-Apr-2020 06:40:26 UTC] 
+IP Address: 66.249.79.196
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+
+[12-Apr-2020 06:40:35 UTC] 
+IP Address: 66.249.79.193
+data: {"unique_id":""}
+
+[12-Apr-2020 16:28:15 UTC] 
+IP Address: 66.249.64.164
+Type: ERROR
+Class: Transaction
+Method: getSantasBagValue
+Description: Error getting count for santa's bag
+Exception: Code: 42000; Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=> '2020-01-12' and dgmobi_buynow_email not like '%ideabytes.com'' at line 1
+

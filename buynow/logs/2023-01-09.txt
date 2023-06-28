@@ -1,0 +1,3288 @@
+[09-Jan-2023 09:00:02 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 09:01:07 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63bbd79203ee0","receiptNumber":"63bbd79203ee0","firstname":"Ganesh_demotest","lastname":"bharatha","email":"ganesh.bharatha@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:Android:1:47.99,DGMobi Landstar US 49 CFR:Annual:Android:1:47.99","usname":"Ganeshtest","phone":"9898989898","totalNoOfLicenses":2,"totalPrice":"95.98","password":"Test@123"}
+language: english
+
+[09-Jan-2023 09:50:25 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 09:51:36 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 09:54:53 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbe3a8aba00","receiptNumber":"63bbe3a8aba00","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:4:191.96,DGMobi Landstar US 49 CFR:Annual:iOS:4:191.96,DGMobi Landstar US 49 CFR:Annual:iOS:4:191.96,DGMobi Landstar US 49 CFR:Annual:iOS:4:191.96","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":4,"totalPrice":"191.96","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 10:04:23 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 10:12:41 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbd79203ee0
+PayerID: 2E7HFK3ESYSC6
+token: 7KG87084LR515803Y
+useraction: commit
+mfid: 1673254867900_b70a1314036aa
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 18N06006HC761500V
+mc_currency: USD
+mc_fee: 4.04
+mc_gross: 95.98
+protection_eligibility: ELIGIBLE
+payment_fee: 4.04
+payment_gross: 95.98
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbd79203ee0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T09:01:08Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ASxxh5DTihPxlbiBeDFil0YFwAW1AGd5-SaRIaoZYiAm0G5BPgGTEAFu
+amt: 95.98
+cc: USD
+st: Completed
+tx: 18N06006HC761500V
+
+[09-Jan-2023 10:12:41 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbd79203ee0","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"Ganesh_demotest","lastName":"bharatha","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ganeshtest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 10:12:41 UTC] 
+Uncaught Exception: 'Error' with message Call to a member function prepare() on null'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(235): StoredetailsInMobileDB->storedetailsForMobile('63bbd79203ee0', '', '2', '95.98', '1', '1', Array, '0', 'US $', '9898989898', 'Ganesh_demotest', 'bharatha', 'ganesh.bharatha...', ' ', ' ', ' ', ' ', 'Ganeshtest', 'Test@123', Array, 'CA')
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 111
+
+[09-Jan-2023 10:12:53 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbd79203ee0
+PayerID: 2E7HFK3ESYSC6
+token: 7KG87084LR515803Y
+useraction: commit
+mfid: 1673254867900_b70a1314036aa
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 18N06006HC761500V
+mc_currency: USD
+mc_fee: 4.04
+mc_gross: 95.98
+protection_eligibility: ELIGIBLE
+payment_fee: 4.04
+payment_gross: 95.98
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbd79203ee0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T09:01:08Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ASxxh5DTihPxlbiBeDFil0YFwAW1AGd5-SaRIaoZYiAm0G5BPgGTEAFu
+amt: 95.98
+cc: USD
+st: Completed
+tx: 18N06006HC761500V
+
+[09-Jan-2023 10:12:53 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbd79203ee0","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"Ganesh_demotest","lastName":"bharatha","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ganeshtest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 10:12:53 UTC] 
+Uncaught Exception: 'Error' with message Call to a member function prepare() on null'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(235): StoredetailsInMobileDB->storedetailsForMobile('63bbd79203ee0', '', '2', '95.98', '1', '1', Array, '0', 'US $', '9898989898', 'Ganesh_demotest', 'bharatha', 'ganesh.bharatha...', ' ', ' ', ' ', ' ', 'Ganeshtest', 'Test@123', Array, 'CA')
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 111
+
+[09-Jan-2023 10:13:22 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbd79203ee0
+PayerID: 2E7HFK3ESYSC6
+token: 7KG87084LR515803Y
+useraction: commit
+mfid: 1673254867900_b70a1314036aa
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 18N06006HC761500V
+mc_currency: USD
+mc_fee: 4.04
+mc_gross: 95.98
+protection_eligibility: ELIGIBLE
+payment_fee: 4.04
+payment_gross: 95.98
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbd79203ee0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T09:01:08Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ASxxh5DTihPxlbiBeDFil0YFwAW1AGd5-SaRIaoZYiAm0G5BPgGTEAFu
+amt: 95.98
+cc: USD
+st: Completed
+tx: 18N06006HC761500V
+
+[09-Jan-2023 10:13:22 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbd79203ee0","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"Ganesh_demotest","lastName":"bharatha","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ganeshtest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 10:13:22 UTC] 
+Uncaught Exception: 'Error' with message Call to a member function prepare() on null'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(235): StoredetailsInMobileDB->storedetailsForMobile('63bbd79203ee0', '', '2', '95.98', '1', '1', Array, '0', 'US $', '9898989898', 'Ganesh_demotest', 'bharatha', 'ganesh.bharatha...', ' ', ' ', ' ', ' ', 'Ganeshtest', 'Test@123', Array, 'CA')
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 111
+
+[09-Jan-2023 10:21:46 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbd79203ee0
+PayerID: 2E7HFK3ESYSC6
+token: 7KG87084LR515803Y
+useraction: commit
+mfid: 1673254867900_b70a1314036aa
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 18N06006HC761500V
+mc_currency: USD
+mc_fee: 4.04
+mc_gross: 95.98
+protection_eligibility: ELIGIBLE
+payment_fee: 4.04
+payment_gross: 95.98
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbd79203ee0
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T09:01:08Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: ASxxh5DTihPxlbiBeDFil0YFwAW1AGd5-SaRIaoZYiAm0G5BPgGTEAFu
+amt: 95.98
+cc: USD
+st: Completed
+tx: 18N06006HC761500V
+
+[09-Jan-2023 10:21:46 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbd79203ee0","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"Ganesh_demotest","lastName":"bharatha","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ganeshtest","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 10:21:46 UTC] 
+Uncaught Exception: 'Error' with message Call to a member function prepare() on null'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(235): StoredetailsInMobileDB->storedetailsForMobile('63bbd79203ee0', '', '2', '95.98', '1', '1', Array, '0', 'US $', '9898989898', 'Ganesh_demotest', 'bharatha', 'ganesh.bharatha...', ' ', ' ', ' ', ' ', 'Ganeshtest', 'Test@123', Array, 'CA')
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 111
+
+[09-Jan-2023 10:56:26 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 10:57:24 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbf2dab643a","receiptNumber":"63bbf2dab643a","firstname":"testing_demo","lastname":"test","email":"ganesh.bharatha@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:Android:1:47.99","usname":"demo_test","phone":"9898989898","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Test@123"}
+language: english
+
+[09-Jan-2023 10:58:41 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 10:58:41 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 10:58:41 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:01:32 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:01:32 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:01:32 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:04 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:04 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:04 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:04 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:05 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:05 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:06 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:06 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:02:06 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:02:06 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:39 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:39 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:39 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:40 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:40 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:40 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:40 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:41 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:41 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:03:41 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:03:41 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:10:10 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:10:10 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:10:10 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:42 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:42 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:17:43 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:17:43 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined method Database::getInstanceFormobileCA()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(227): StoredetailsInMobileDB->__construct()
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/classes/StoredetailsInMobileDB.php' on line 28
+
+[09-Jan-2023 11:22:00 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:00 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:22:01 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:33:09 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:33:10 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:33:10 UTC] 
+Uncaught Exception: 'Error' with message Call to undefined function sendmail()'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/success.php(289): credentialsMail(Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/sendmail.php' on line 34
+
+[09-Jan-2023 11:33:34 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 11:33:35 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:39:02 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 11:41:09 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 11:41:43 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 11:42:51 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbfd7768962","receiptNumber":"63bbfd7768962","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:5:239.95","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":5,"totalPrice":"239.95","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 11:44:21 UTC] 
+IP Address: 103.160.27.238
+data: {"orderId":"63bbfcd6e04eb","receiptNumber":"63bbfcd6e04eb","firstname":"saipriya","lastname":"alle","email":"saipriya.alle@ideabytes.com","products":"DGMobi Landstar CANADA TDG:Annual:Android:1:47.99","usname":"saipriya","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"^^Priy@2k234$"}
+language: english
+
+[09-Jan-2023 11:44:21 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbfd7768962","receiptNumber":"63bbfd7768962","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95","usname":"bhavana.dasari","phone":"8888888888","totalNoOfLicenses":5,"totalPrice":"239.95","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 11:44:21 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bbfd7768962' for key 'idx_paypal_transactionid'
+Data: {"firstName":"Dasari","lastName":"Bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"5","totalPrice":"239.95","selectedLanguage":"english","orderId":"63bbfd7768962","products":"DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95"}
+
+[09-Jan-2023 11:44:57 UTC] 
+IP Address: 103.160.27.238
+data: {"unique_id":""}
+
+[09-Jan-2023 11:44:59 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbfd7768962","receiptNumber":"63bbfd7768962","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95","usname":"bhavana.dasari","phone":"8888888888","totalNoOfLicenses":5,"totalPrice":"239.95","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 11:44:59 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bbfd7768962' for key 'idx_paypal_transactionid'
+Data: {"firstName":"Dasari","lastName":"Bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"5","totalPrice":"239.95","selectedLanguage":"english","orderId":"63bbfd7768962","products":"DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95,DGMobi Landstar US 49 CFR:Annual:Android:5:239.95"}
+
+[09-Jan-2023 11:45:49 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 11:46:29 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bbfe6d5a857","receiptNumber":"63bbfe6d5a857","firstname":"Bhavana","lastname":"Dasari","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:2:95.98","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":2,"totalPrice":"95.98","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 11:47:06 UTC] 
+IP Address: 103.160.27.238
+orderId: 63bbfcd6e04eb
+PayerID: 2E7HFK3ESYSC6
+token: 9AD920119K0612827
+useraction: commit
+mfid: 1673264661753_aa325a65cf939
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: saipriya.alle@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 49A77332GK6060059
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbfcd6e04eb
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T11:44:22Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AcNMKQDu0WH2g6XuCklAwLkFi7q5Ah1oAv5hO3vwBXm0-xJ87fNEhxzk
+amt: 47.99
+cc: USD
+st: Completed
+tx: 49A77332GK6060059
+
+[09-Jan-2023 11:47:06 UTC] 
+IP Address: 103.160.27.238
+response: {"receiptNumber":"63bbfcd6e04eb","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"saipriya","lastName":"alle","emailID":"saipriya.alle@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"saipriya","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:47:13 UTC] 
+IP Address: 103.160.27.238
+orderId: 63bbfcd6e04eb
+PayerID: 2E7HFK3ESYSC6
+token: 9AD920119K0612827
+useraction: commit
+mfid: 1673264661753_aa325a65cf939
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: saipriya.alle@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 49A77332GK6060059
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbfcd6e04eb
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T11:44:22Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AcNMKQDu0WH2g6XuCklAwLkFi7q5Ah1oAv5hO3vwBXm0-xJ87fNEhxzk
+amt: 47.99
+cc: USD
+st: Completed
+tx: 49A77332GK6060059
+
+[09-Jan-2023 11:47:13 UTC] 
+IP Address: 103.160.27.238
+response: {"receiptNumber":"63bbfcd6e04eb","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"saipriya","lastName":"alle","emailID":"saipriya.alle@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"saipriya","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:47:15 UTC] 
+IP Address: 103.160.27.238
+orderId: 63bbfcd6e04eb
+PayerID: 2E7HFK3ESYSC6
+token: 9AD920119K0612827
+useraction: commit
+mfid: 1673264661753_aa325a65cf939
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: saipriya.alle@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 49A77332GK6060059
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbfcd6e04eb
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T11:44:22Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AcNMKQDu0WH2g6XuCklAwLkFi7q5Ah1oAv5hO3vwBXm0-xJ87fNEhxzk
+amt: 47.99
+cc: USD
+st: Completed
+tx: 49A77332GK6060059
+
+[09-Jan-2023 11:47:15 UTC] 
+IP Address: 103.160.27.238
+response: {"receiptNumber":"63bbfcd6e04eb","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"saipriya","lastName":"alle","emailID":"saipriya.alle@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"saipriya","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 11:58:53 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:03:52 UTC] 
+IP Address: 103.160.27.238
+data: {"orderId":"63bc017de3968","receiptNumber":"63bc017de3968","firstname":"saipriya","lastname":"alle","email":"saipriya.alle@ideabytes.com","products":"DGMobi General US 49 CFR:Annual:Android:1:47.99","usname":"saipriya","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Priya@$123"}
+language: english
+
+[09-Jan-2023 12:05:03 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bbfe6d5a857
+amt: 95.98
+cc: USD
+item_name: DGMobi Licences
+item_number: 63bbfe6d5a857
+st: Completed
+tx: 3EX2064121702760R
+
+[09-Jan-2023 12:05:03 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bbfe6d5a857","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"2","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"8888888888","firstName":"Bhavana","lastName":"Dasari","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanadasari","products":[{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 12:07:23 UTC] 
+IP Address: 223.230.125.136
+data: {"unique_id":""}
+
+[09-Jan-2023 12:07:57 UTC] 
+IP Address: 223.230.125.136
+data: {"unique_id":""}
+
+[09-Jan-2023 12:09:05 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:09:47 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc03e17b29b","receiptNumber":"63bc03e17b29b","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:3:143.97","usname":"bhavanadasari","phone":"888888888888","totalNoOfLicenses":3,"totalPrice":"143.97","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:10:30 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc03e17b29b","receiptNumber":"63bc03e17b29b","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:iOS:3:143.97,DGMobi Landstar US 49 CFR:Annual:iOS:3:143.97","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":3,"totalPrice":"143.97","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:10:30 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bc03e17b29b' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"3","totalPrice":"143.97","selectedLanguage":"english","orderId":"63bc03e17b29b","products":"DGMobi Landstar US 49 CFR:Annual:iOS:3:143.97,DGMobi Landstar US 49 CFR:Annual:iOS:3:143.97"}
+
+[09-Jan-2023 12:10:49 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:11:08 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:11:28 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc0449c301a","receiptNumber":"63bc0449c301a","firstname":"Dasari","lastname":"Bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:2:95.98","usname":"bhavanadasari","phone":"888888888","totalNoOfLicenses":2,"totalPrice":"95.98","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:13:16 UTC] 
+IP Address: 103.160.27.238
+data: {"orderId":"63bc045c7ec89","receiptNumber":"63bc045c7ec89","firstname":"saipriya","lastname":"alle","email":"saipriya.alle@ideabytes.com","products":"DGMobi General US 49 CFR:Annual:Android:1:47.99","usname":"saipriya","phone":"9999999999","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Priya@1998"}
+language: english
+
+[09-Jan-2023 12:15:37 UTC] 
+IP Address: 223.230.125.136
+orderId: 63bc0449c301a
+PayerID: 2E7HFK3ESYSC6
+token: 1D901795MV151381U
+useraction: commit
+mfid: 1673266289496_8338bd922215a
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: bhavana.dasari@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 25Y47735G46189434
+mc_currency: USD
+mc_fee: 4.04
+mc_gross: 95.98
+protection_eligibility: ELIGIBLE
+payment_fee: 4.04
+payment_gross: 95.98
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bc0449c301a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T12:11:29Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AYJEwX57-mxCRD8vNmTywUo7GJ0QApid803HZyHsngcssDP5Et8rz2Y-
+amt: 95.98
+cc: USD
+st: Completed
+tx: 25Y47735G46189434
+
+[09-Jan-2023 12:15:37 UTC] 
+IP Address: 223.230.125.136
+response: {"receiptNumber":"63bc0449c301a","unitPrice":"","totalNoOfLicenses":"2","totalPriceWithTax":"95.98","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"2","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"888888888","firstName":"Dasari","lastName":"Bhavana","emailID":"bhavana.dasari@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"bhavanadasari","products":[{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 12:18:55 UTC] 
+IP Address: 223.230.125.136
+data: {"unique_id":""}
+
+[09-Jan-2023 12:21:12 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:24:11 UTC] 
+IP Address: 223.230.125.136
+data: {"unique_id":""}
+
+[09-Jan-2023 12:24:47 UTC] 
+IP Address: 103.160.27.238
+data: {"orderId":"63bc06b8f34aa","receiptNumber":"63bc06b8f34aa","firstname":"saipriya","lastname":"alle","email":"saipriya.alle@ideabytes.com","products":"DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99,DGMobi General US 49 CFR:Annual:Android:3:143.97,DGMobi US Xpress US 49 CFR:Annual:Android:2:95.98,DGMobi US Xpress US 49 CFR:Annual:iOS:1:47.99","usname":"saipriya","phone":"9999999999","totalNoOfLicenses":6,"totalPrice":"287.94","password":"Priya@$123"}
+language: english
+
+[09-Jan-2023 12:24:57 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:25:35 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc079915dc2","receiptNumber":"63bc079915dc2","firstname":"Dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:3:143.97","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":3,"totalPrice":"143.97","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:26:26 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:26:40 UTC] 
+IP Address: 103.160.27.238
+orderId: 63bc06b8f34aa
+PayerID: 2E7HFK3ESYSC6
+token: 28F18431CK9856457
+useraction: commit
+mfid: 1673267088691_37612d1a62ef6
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: saipriya.alle@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: George
+last_name: Kongalath
+txn_id: 49Y187615T059232M
+mc_currency: USD
+mc_fee: 11.53
+mc_gross: 287.94
+protection_eligibility: ELIGIBLE
+payment_fee: 11.53
+payment_gross: 287.94
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bc06b8f34aa
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T12:24:49Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: A.doWNm7TzJfJZsKRHwVIeWY7URsAiL1gnFxAu.v-.10aaIJzJLxRbXy
+amt: 287.94
+cc: USD
+st: Completed
+tx: 49Y187615T059232M
+
+[09-Jan-2023 12:26:40 UTC] 
+IP Address: 103.160.27.238
+response: {"receiptNumber":"63bc06b8f34aa","unitPrice":"","totalNoOfLicenses":"6","totalPriceWithTax":"287.94","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"42","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9999999999","firstName":"saipriya","lastName":"alle","emailID":"saipriya.alle@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"saipriya","products":[{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"General","productName":"DGMobi General US 49 CFR","mobileType":"0","noOfLicenses":"3","producttotalprice":"143.97","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"0","noOfLicenses":"2","producttotalprice":"95.98","price":"47.99","licence_type":"Annual"},{"regulation":"49 CFR","appName":"US","productName":"DGMobi US Xpress US 49 CFR","mobileType":"1","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 12:27:18 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc07f22b4b1","receiptNumber":"63bc07f22b4b1","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:2:95.98,DGMobi Landstar US 49 CFR:Annual:Android:2:95.98","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":2,"totalPrice":"95.98","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:28:58 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:29:38 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc088ad6ea3","receiptNumber":"63bc088ad6ea3","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:4:191.96","usname":"bhavanadasari","phone":"88888888888","totalNoOfLicenses":4,"totalPrice":"191.96","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:30:22 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc088ad6ea3","receiptNumber":"63bc088ad6ea3","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":4,"totalPrice":"191.96","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:30:22 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bc088ad6ea3' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"4","totalPrice":"191.96","selectedLanguage":"english","orderId":"63bc088ad6ea3","products":"DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96"}
+
+[09-Jan-2023 12:30:51 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc088ad6ea3","receiptNumber":"63bc088ad6ea3","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":4,"totalPrice":"191.96","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:30:51 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bc088ad6ea3' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"4","totalPrice":"191.96","selectedLanguage":"english","orderId":"63bc088ad6ea3","products":"DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96,DGMobi Landstar US 49 CFR:Annual:Android:4:191.96"}
+
+[09-Jan-2023 12:31:29 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 12:31:59 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc092126191","receiptNumber":"63bc092126191","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:1:47.99","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:32:39 UTC] 
+IP Address: 223.230.125.136
+data: {"orderId":"63bc092126191","receiptNumber":"63bc092126191","firstname":"dasari","lastname":"bhavana","email":"bhavana.dasari@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:1:47.99,DGMobi Landstar US 49 CFR:Annual:Android:1:47.99","usname":"bhavanadasari","phone":"8888888888","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Dasa@1997"}
+language: english
+
+[09-Jan-2023 12:32:39 UTC] 
+IP Address: 223.230.125.136
+Type: ERROR
+Class: Transaction
+Method: storeDetails
+Description: Error creating transaction
+Exception: Code: 23000; Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '63bc092126191' for key 'idx_paypal_transactionid'
+Data: {"firstName":"dasari","lastName":"bhavana","email":"bhavana.dasari@ideabytes.com","phone":"8888888888","noOfLicenses":"1","totalPrice":"47.99","selectedLanguage":"english","orderId":"63bc092126191","products":"DGMobi Landstar US 49 CFR:Annual:Android:1:47.99,DGMobi Landstar US 49 CFR:Annual:Android:1:47.99"}
+
+[09-Jan-2023 12:39:06 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbf2dab643a
+PayerID: 2E7HFK3ESYSC6
+token: 2HY70881YN589360X
+useraction: commit
+mfid: 1673261845550_8cb0eb640eac7
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 8AS59950N2038453V
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbf2dab643a
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T10:57:25Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AJWVNlcgzxXgVmIyS0AFDrLApXd4AhgE5LZShQuz6QXKjZfs2SgB8sVQ
+amt: 47.99
+cc: USD
+st: Completed
+tx: 8AS59950N2038453V
+
+[09-Jan-2023 12:39:06 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbf2dab643a","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"1","totalNoOfLicenses49CFR":"0","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9898989898","firstName":"testing_demo","lastName":"test","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"demo_test","products":[{"regulation":"TDG","appName":"Landstar","productName":"DGMobi Landstar CANADA TDG","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 12:40:19 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 13:08:14 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 14:32:44 UTC] 
+IP Address: 183.82.9.55
+data: {"orderId":"63bbe36139adb","receiptNumber":"63bbe36139adb","firstname":"Ganesh","lastname":"bharatha","email":"ganesh.bharatha@ideabytes.com","products":"DGMobi Landstar US 49 CFR:Annual:Android:1:47.99","usname":"Ganesh_demo123","phone":"9876543210","totalNoOfLicenses":1,"totalPrice":"47.99","password":"Test@1234"}
+language: english
+
+[09-Jan-2023 14:34:03 UTC] 
+IP Address: 183.82.9.55
+orderId: 63bbe36139adb
+PayerID: 2E7HFK3ESYSC6
+token: 543459096X108642Y
+useraction: commit
+mfid: 1673274765082_271d94ae65f69
+rcache: 2
+cookieBannerVariant: hidden
+targetService4174: xorouternodeweb
+country_x: US,US
+locale_x: en_US,en_US
+payer_email: paypal@ideabytes.com
+payer_id: 2E7HFK3ESYSC6
+payer_status: UNVERIFIED
+first_name: Ganesh
+last_name: Bharatha
+txn_id: 2MJ707584J875373A
+mc_currency: USD
+mc_fee: 2.17
+mc_gross: 47.99
+protection_eligibility: ELIGIBLE
+payment_fee: 2.17
+payment_gross: 47.99
+payment_status: Completed
+payment_type: instant
+handling_amount: 0.00
+shipping: 0.00
+item_name: DGMobi Licences
+item_number: 63bbe36139adb
+quantity: 1
+txn_type: web_accept
+payment_date: 2023-01-09T14:32:45Z
+receiver_id: RBDUMENDMF4F6
+notify_version: UNVERSIONED
+verify_sign: AuqqhU7vzr78X26ztrb4n6fDEP.3AfyKIF7uD2Hlf41Sue.ezRRNZq4J
+amt: 47.99
+cc: USD
+st: Completed
+tx: 2MJ707584J875373A
+
+[09-Jan-2023 14:34:03 UTC] 
+IP Address: 183.82.9.55
+response: {"receiptNumber":"63bbe36139adb","unitPrice":"","totalNoOfLicenses":"1","totalPriceWithTax":"47.99","totalNoOfLicensesTDG":"0","totalNoOfLicenses49CFR":"1","taxRate":"0","taxPrice":"0","currency":"US $","phoneNumber":"9876543210","firstName":"Ganesh","lastName":"bharatha","emailID":"ganesh.bharatha@ideabytes.com","countryName":" ","provinceName":" ","address":" ","page":" ","username":"Ganesh_demo123","products":[{"regulation":"49 CFR","appName":"Landstar","productName":"DGMobi Landstar US 49 CFR","mobileType":"0","noOfLicenses":"1","producttotalprice":"47.99","price":"47.99","licence_type":"Annual"}]}
+
+[09-Jan-2023 17:50:15 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 17:50:15 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
+[09-Jan-2023 17:51:59 UTC] 
+Uncaught Exception: 'ErrorException' with message Undefined index: dgmobi_buynow_product_id'
+Stack trace: #0 /var/www/html/testdgmobi/buynow/index.php(1643): customErrorHandler(8, 'Undefined index...', '/var/www/html/t...', 1643, Array)
+#1 {main}
+Thrown in '/var/www/html/testdgmobi/buynow/index.php' on line 1643
+
