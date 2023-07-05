@@ -1,0 +1,26 @@
+DEPLOYMNET.YAML
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dgmobiwebsite
+  labels:
+    app: your-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: your-app
+  template:
+    metadata:
+      labels:
+        app: your-app
+    spec:
+      containers:
+        - name: ibmobiwebsite
+          image: ibtesting.azurecr.io/53233389857d
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: "1"
+              memory: "512Mi"
