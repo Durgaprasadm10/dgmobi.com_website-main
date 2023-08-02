@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iis-webapp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iis-webapp
+  template:
+    metadata:
+      labels:
+        app: iis-webapp
+    spec:
+      containers:
+      - name: iis-webapp
+        image: dgmobi:latest
+        ports:
+        - containerPort: 80
